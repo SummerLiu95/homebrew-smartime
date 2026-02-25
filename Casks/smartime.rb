@@ -2,7 +2,7 @@ cask "smartime" do
   version "1.0.0"
   sha256 "6dff8bab56293a434f1eb19337bd8569d63590387272d785eda33d1a460bee09"
 
-  url "https://github.com/SummerLiu95/SmartIME/releases/download/v#{version}/SmartIME_#{version}_universal.dmg"
+  url "https://github.com/SummerLiu95/SmartIME/releases/download/v#{version}/SmartIME_#{version}_aarch64.dmg"
   name "SmartIME"
   desc "AI-powered input method switcher based on active app"
   homepage "https://github.com/SummerLiu95/SmartIME"
@@ -14,6 +14,7 @@ cask "smartime" do
 
   auto_updates true
   depends_on macos: ">= :monterey"
+  depends_on arch: :arm64
 
   app "SmartIME.app"
 
