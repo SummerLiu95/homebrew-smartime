@@ -1,6 +1,6 @@
 cask "smartime" do
-  version "1.2.0"
-  sha256 "0b236cfdd4284f8b17dcd2728c1d9f4c423274dc0f4eefa668bee34fd683f655"
+  version "1.3.0"
+  sha256 "d18c8ca69c84ef1492e92b9bcaf3c36849a7a5244b32139ce0871c2f81ef2001"
 
   url "https://github.com/SummerLiu95/SmartIME/releases/download/v#{version}/SmartIME_#{version}_aarch64.dmg"
   name "SmartIME"
